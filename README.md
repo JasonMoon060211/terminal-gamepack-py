@@ -134,3 +134,7 @@ Attempts to place a marker on an occupied cell are rejected.
 This preserves existing placements and prevents invalid input from corrupting the board state. Under placement-only rules, each successful move fills exactly one previously empty cell, so the game progresses toward a full board.
 
 Separating validation from move execution also makes the rules easier to test: malformed input, out-of-range coordinates, and occupied cells can each be checked independently.
+
+Video Instruction
+https://github.com/user-attachments/assets/176796a7-58df-4610-9d80-87132fc483c5
+
